@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kagithala Sandhya Rani - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #4a90e2;
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin: 0.5rem 0 0;
+            font-size: 1.1rem;
+            font-weight: 300;
+        }
+        main {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        section {
+            margin-bottom: 2rem;
+        }
+        h2 {
+            border-bottom: 2px solid #4a90e2;
+            padding-bottom: 0.3rem;
+            margin-bottom: 1rem;
+            color: #4a90e2;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 1rem;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 0.5rem;
+            text-align: left;
+        }
+        th {
+            background-color: #e6f0fa;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 1.5rem;
+        }
+        a {
+            color: #4a90e2;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            font-size: 0.9rem;
+            color: #777;
+        }
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+            main {
+                margin: 1rem;
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🌟 Kagithala Sandhya Rani</h1>
+        <p>Final-year B.Tech Student | Computer Science & Engineering (AI & ML)</p>
+    </header>
+    <main>
+        <section id="about">
+            <h2>👩‍💻 About Me</h2>
+            <p>Final-year B.Tech student in <strong>Computer Science & Engineering (AI & ML)</strong> with a strong academic record (CGPA: 8.6). Passionate about <strong>Python development, machine learning, and generative AI</strong>, with hands-on experience in <strong>prompt engineering, LLM workflows, APIs, and AI-powered content generation</strong>.</p>
+            <p>📍 Tirupati, Andhra Pradesh<br />
+            📧 <a href="mailto:sandhyakagithala26@gmail.com">sandhyakagithala26@gmail.com</a> | 📞 9849055076<br />
+            🔗 <a href="https://www.linkedin.com/in/kagithala-sandhya-rani-380319332" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a></p>
+        </section>
+
+        <section id="education">
+            <h2>🎓 Education</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Degree</th>
+                        <th>Institution</th>
+                        <th>CGPA</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>B.Tech – CSE (AI & ML)</td>
+                        <td>Mohan Babu University</td>
+                        <td>8.6</td>
+                        <td>2027</td>
+                    </tr>
+                    <tr>
+                        <td>Intermediate</td>
+                        <td>Sri Chaitanya Junior College</td>
+                        <td>7.4</td>
+                        <td>2023</td>
+                    </tr>
+                    <tr>
+                        <td>SSC</td>
+                        <td>Sri Chaitanya Techno School</td>
+                        <td>9.9</td>
+                        <td>2021</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="skills">
+            <h2>🛠️ Technical Skills</h2>
+            <ul>
+                <li><strong>Programming:</strong> Python</li>
+                <li><strong>Web Development:</strong> HTML, CSS</li>
+                <li><strong>AI/ML:</strong> Machine Learning, Prompt Engineering, LLM Fundamentals</li>
+                <li><strong>Frameworks & Tools:</strong> OpenAI API, Hugging Face Transformers</li>
+                <li><strong>Concepts:</strong> Zero-shot & Few-shot Prompting, Prompt Chaining, Sentiment Analysis, Data Visualization</li>
+            </ul>
+        </section>
+
+        <section id="experience">
+            <h2>💼 Internship Experience</h2>
+            <p><strong>AICTE-EduSkills Virtual Internship Program – Prompt Engineering for AI (Aug 2026 – Oct 2026)</strong></p>
+            <ul>
+                <li>Learned fundamentals of AI, LLMs, and prompt design.</li>
+                <li>Worked with <strong>OpenAI API</strong> and <strong>Hugging Face Transformers</strong> for text generation, classification, and Q&A.</li>
+                <li>Developed a capstone project on <strong>AI-powered content generation</strong>, including prompt strategy, sentiment analysis, visualization, testing, and deployment.</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>🚀 Projects</h2>
+            <h3>🔹 News Spam Detection – Machine Learning</h3>
+            <ul>
+                <li>Built a classifier to detect <strong>real vs spam news articles</strong> using features like keywords, source credibility, and writing patterns.</li>
+                <li>Goal: Reduce misinformation spread.</li>
+            </ul>
+            <h3>🔹 Smart Sensor-Based Forest Fire Detection – IoT</h3>
+            <ul>
+                <li>Designed a <strong>real-time monitoring system</strong> using Arduino Mega, flame sensor, DHT22 temperature-humidity sensor, and wind vane.</li>
+                <li>Supported <strong>fire-spread prediction</strong> using wind direction data.</li>
+            </ul>
+        </section>
+
+        <section id="languages">
+            <h2>🌐 Languages</h2>
+            <ul>
+                <li>English</li>
+                <li>Telugu</li>
+            </ul>
+        </section>
+
+        <section id="highlights">
+            <h2>📌 Portfolio Highlights</h2>
+            <ul>
+                <li>Strong foundation in <strong>AI & ML</strong> with practical project experience.</li>
+                <li>Skilled in <strong>prompt engineering</strong> and <strong>LLM workflows</strong>.</li>
+                <li>Hands-on exposure to <strong>IoT systems</strong> and <strong>real-world problem solving</strong>.</li>
+                <li>Interested in <strong>Python development, generative AI, and applied machine learning</strong>.</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>📞 Contact</h2>
+            <p>Feel free to reach out via email or phone for collaborations, internships, or project discussions.</p>
+            <p>📧 <a href="mailto:sandhyakagithala26@gmail.com">sandhyakagithala26@gmail.com</a><br />
+            📞 9849055076</p>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2024 Kagithala Sandhya Rani
+    </footer>
+</body>
+</html>
